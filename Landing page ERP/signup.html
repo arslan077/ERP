@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="js/func.js"></script>
+</head>
+
+<body>
+    <a href="index.html"><h1>Master Pro ERP</h1><br></a>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#" method="post">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Username" name="name" required/>
+                <input type="email" placeholder="Email" name="email" required/ >
+                <input type="password" placeholder="Password" name="pass" required />
+                <input  type="submit" value="Sign Up" id="button" name="signup">
+                <p style="color: white"><br>pppppppppppppppppppppppppppppppp<br></p>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#" method="post">
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" placeholder="Email" name="email" />
+                <input type="password" placeholder="Password" name="password"/>
+                <a href="#">Forgot your password?</a>
+                <input id="button" type="submit" value="Sign In" name="signin">
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To Stay connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn" onclick="moveright()">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello,User!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="signUp" onclick="moveleft()">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body></html>
